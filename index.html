@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidz Top Spots</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar-container">
+      <a href="#home" class="navbar-logo">
+        <img
+          src="https://images-platform.99static.com/IkakfngpehHO8P7HLsj-gsx_loI=/13x0:1428x1415/500x500/top/smart/99designs-contests-attachments/121/121760/attachment_121760077"
+          alt="Logo" class="logo">
+        <span>SidEats</span>
+      </a>
+      <nav class="navbar-menu">
+        <a  href="index.html">Home</a>
+        <a href="#card">Top Spots</a>
+        <a href="#add-review">Add Review</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Discover the Best Restaurants in Ann Arbor</h1>
+        <p>Explore the top spots in Ann Arbor, Michigan, and share your favorite places to eat with the community.</p>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="cards-grid">
+        <div class="card" id="card">
+          <div class="card_image">
+            <img
+              src="https://s3-rd-prod.crainsdetroit.com/s3fs-public/styles/1200x630/public/DeliTogetherWeAreAmaZING-main_i.jpg"
+              alt="Zingerman's Delicatessen">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title">Zingerman's Delicatessen</h2>
+            <p>"A renowned deli offering gourmet sandwiches and an extensive selection of cheeses and meats."</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_image">
+            <img
+              src="https://d1w7312wesee68.cloudfront.net/FfmAI7J1y_wTAYgZic9m22GgHEo4NK1_Tov2v0Fz0Fs/ext:webp/quality:50/plain/s3://toast-sites-resources-prod/restaurantImages/d150e36c-b7cd-4993-8813-5ea08fc47531/A5C557E8-EA2C-4BD9-A50C-265F563DEBB4_1588989308.webp"
+              alt="Miss Kim">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title">Miss Kim</h2>
+            <p>"Modern Korean dishes with locally sourced ingredients. Perfect for those seeking a culinary adventure."
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_image">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/hl8oMPrnWD3DbT02Rnp-1GDcXi0=/0x0:2048x1365/1720x0/filters:focal(0x0:2048x1365):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19253653/FritaBatidos_0397.jpg"
+              alt="Frita Batidos">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title">Frita Batidos</h2>
+            <p>"Cuban-inspired burgers and milkshakes in a casual, fun setting."</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_image">
+            <img src="https://assets.foodhub.com/images/thumbnails/biryani_rice_tandoori_001_692x306.jpg"
+              alt="Namaste Flavours">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title">Namaste Flavours</h2>
+            <p>"Indian Food with local ingredients."</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_image">
+            <img
+              src="https://static.wixstatic.com/media/6b881a_a70e5d8ef13846a8aed807d0bac1a743~mv2.jpg/v1/fill/w_1350,h_994,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6b881a_a70e5d8ef13846a8aed807d0bac1a743~mv2.jpg"
+              alt="Sava's">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title">Sava's</h2>
+            <p>"A well-loved spot with American and Mediterranean dishes. Perfect for casual dining."</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card_image">
+            <img src="https://static.spotapps.co/spots/88/d6039dc66547ac884eb413805e7a3b/full" alt="Chop House">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title">Chop House</h2>
+            <p>"A high-end steakhouse with premium cuts and an elegant dining experience."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="add-review" id="add-review">
+      <h2>Add Your Fav Spot Review</h2>
+      <form id="review-form">
+        <div class="form-group">
+          <label for="restaurant-name">Restaurant Name:</label>
+          <input type="text" id="restaurant-name" name="restaurant-name" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="image-url">Image URL:</label>
+          <input type="url" id="image-url" name="image-url" placeholder="https://example.com/image.jpg">
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <button type="submit">Add Review</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>Made with ♥︎ and lots of cups of coffee ☕️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://lh3.googleusercontent.com/pw/AM-JKLW4j5JI56mukPbCeDlRHbiEY5YyFB0au3T8WmP1HEGoemIMro7RdTACmAzo8dOJj8LOFRpVehcLj-xD_VTxDc437oa3wr59L_2afRke7zpAis_UEnDLI-7C-1Mm8mN_w2A1sunBFnDnOsrXU44ifQAb=w60-h61-no" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+</body>
+
+</html>
