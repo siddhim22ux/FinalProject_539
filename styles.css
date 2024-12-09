@@ -428,8 +428,7 @@ button[type="submit"] {
   padding: 10px;
   font-size: 1rem;
   font-weight: bold;
-  color: white;
-  background: #000000;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
